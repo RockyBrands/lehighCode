@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-  background: #111111;
+  background: #ffffff;
   font-family: "metropolis-regular", sans-serif;
   font-size: 1.7rem;
   font-style: normal;
@@ -439,7 +439,7 @@ form,
   left: 0;
   right: 0;
   bottom: 0;
-  background: #000000;
+  background: #ffffff;
   z-index: 800;
   height: 100%;
   width: 100%;
