@@ -96,6 +96,11 @@ button:focus{
             $("#hideThis").hide();
             $("#report3").show();
         });
+        $("#saChart").on("click", function(){
+            hideTheReports();
+            $("#hideThis").hide();
+            $("#report9").show();
+        });
         //Load LO
         $("#loEmail").on("click", function(){
             hideTheReports();
@@ -152,6 +157,7 @@ button:focus{
                                     <button id="lssChart">LSS</button>
                                     <button id="cfChart">CF</button>
                                     <button id="sgChart">SG</button>
+                                    <button id="saChart">SA</button>
 
                                     <div id="report0">
                                             <iframe width="900" height="1200" src="https://datastudio.google.com/embed/reporting/0ByPWaena7R7ncGlYZkpDTTdWUDg/page/MOx" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -165,6 +171,9 @@ button:focus{
                                     <div id="report3">
                                             <iframe width="900" height="1200" src="https://datastudio.google.com/embed/reporting/0ByPWaena7R7ncGlYZkpDTTdWUDg/page/RrvW" frameborder="0" style="border:0" allowfullscreen></iframe>
                                         </div>
+                                    <div id="report9">
+                                        <iframe width="900" height="1300" src="https://datastudio.google.com/embed/reporting/0ByPWaena7R7ncGlYZkpDTTdWUDg/page/tBej" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    </div>
                             </p>
                     </div>
             </div>
